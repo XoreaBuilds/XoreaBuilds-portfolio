@@ -15,3 +15,11 @@ Thumbs.db
 
 # Build output (if ever mag-Vite ka)
 dist/
+
+### Step 3: Commit and Push the fix
+Now, save these changes to GitHub so the GitHub Actions runner gets the update:
+
+```bash
+git add .gitignore
+git commit -m "fix: remove gh-pages cache from git tracking and update gitignore"
+git push origin mainnpmp
